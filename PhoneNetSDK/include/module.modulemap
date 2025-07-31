@@ -1,4 +1,0 @@
-module PhoneNetSDK {
-    umbrella header "PhoneNetSDK.h"
-    export *
-} 
