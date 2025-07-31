@@ -1,0 +1,4 @@
+module PhoneNetSDK {
+    umbrella header "/Users/dennya/No_Sync/net-diagnosis/PhoneNetSDK/include/PhoneNetSDK.h"
+    export *
+}

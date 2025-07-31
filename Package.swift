@@ -2,15 +2,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "NetDiagnosis",
+    name: "PhoneNetSDK",
     platforms: [.iOS(.v12)],
     products: [
-        .library(name: "NetDiagnosis", targets: ["NetDiagnosis"])
+        .library(name: "PhoneNetSDK", targets: ["PhoneNetSDK"])
     ],
     targets: [
         .target(
-            name: "NetDiagnosis",
-            path: "Sources" // adjust to correct directory
+            name: "PhoneNetSDK",
+            path: "PhoneNetSDK",
+            publicHeadersPath: "include"
         )
     ]
 )
